@@ -2,12 +2,8 @@ package org.example.faceis;
 
 public class QtdPalavras {
     public int contarPalavras(String palavras){
-        int total = 1;
-        for (char c: palavras.toCharArray()) {
-            if (Character.isWhitespace(c)){
-                total ++;
-                }
-            }
-        return total;
-        }
+        palavras = palavras.strip().replaceAll("\\s{2,}", " ");
+        String[] separado = palavras.split(" ");
+        return separado.length;
+    }
 }
