@@ -1,9 +1,6 @@
 package org.example;
 
-import org.example.faceis.CheckEnd;
-import org.example.faceis.ListaBools;
-import org.example.faceis.QtdPalavras;
-import org.example.faceis.SequTrian;
+import org.example.faceis.*;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -34,10 +31,19 @@ public class Main {
 //        CheckEnd end = new CheckEnd();
 //        System.out.println("O resultado do match é "+end.checarEnd(palavra, chars));
 //------------------------------------------------------------------------------------
-        System.out.println("Qual triângulo você quer saber os pontos?");
-        int qtd = scan.nextInt();
+//        System.out.println("Qual triângulo você quer saber os pontos?");
+//        int qtd = scan.nextInt();
+//
+//        SequTrian seq = new SequTrian();
+//        System.out.println("A quantidade total de pontos é: " + seq.qtdPontos(qtd));
+//------------------------------------------------------------------------------------
+        System.out.println("Esta é uma calculadora. Digite, em ordem um número, o símbolo de " +
+                "operação(+, -, *, /, e depois outro número:");
+        double numero1 = scan.nextDouble();
+        char simb = scan.next().trim().charAt(0);
+        double numero2 = scan.nextDouble();
 
-        SequTrian seq = new SequTrian();
-        System.out.println("A quantidade total de pontos é: " + seq.qtdPontos(qtd));
+        Calculadora calculadora = new Calculadora();
+        System.out.println("O resultado da operação é: " + calculadora.operacaoCalc(numero1, simb, numero2));
     }
 }
