@@ -1,7 +1,7 @@
 package org.example.faceis;
 
 public class Calculadora {
-    public double operacaoCalc(double num1, char simb, double num2){
+    public double operacaoCalc(double num1, char simb, double num2) throws Exception {
         double resultado = 0;
         boolean chec = true;
         switch(simb){
@@ -21,6 +21,10 @@ public class Calculadora {
                 chec = false;
                 break;
         }
-        return resultado;
+        if (chec){
+            return resultado;
+        } else{
+            throw new Exception("Símbolo inválido");
+        }
     }
 }
