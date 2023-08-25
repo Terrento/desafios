@@ -43,13 +43,26 @@ public class Main {
 //        char simb = scan.next().trim().charAt(0);
 //        double numero2 = scan.nextDouble();
 //
-//        Calculadora calculadora = new Calculadora();
+        Calculadora calculadora = new Calculadora();
 //        System.out.println("O resultado da operação é: " + calculadora.operacaoCalc(numero1, simb, numero2));
-//-----------------------------------------------------------------------------------
-        ArrayList<Integer> listaNumeros = new ArrayList<>();
-        Collections.addAll(listaNumeros, 10, 4, 9, 3, 50);
 
-        ExistsHigher existsHigher = new ExistsHigher();
-        System.out.println("Resultado é: " + existsHigher.checador(listaNumeros, 2));
+        System.out.println("Digite, em sequeência, o valor original e o desconto a ser aplicado");
+        double valorOriginal = scan.nextDouble();
+        double valorDesconto = scan.nextDouble();
+
+        System.out.println("O valor de desconto é: " + calculadora.operacaoDesconto(valorOriginal, valorDesconto));
+//-----------------------------------------------------------------------------------
+//        ArrayList<Integer> listaNumeros = new ArrayList<>();
+//        Collections.addAll(listaNumeros, 10, 4, 9, 3, 50);
+//
+//        ExistsHigher existsHigher = new ExistsHigher();
+//        System.out.println("Resultado é: " + existsHigher.checador(listaNumeros, 2));
+//---------------------------------------------------------------------------------------
+//        System.out.println("Digite o nome e sobrenome:");
+//        String nome = scan.nextLine();
+//
+//        TrocarNome trocarNome = new TrocarNome();
+//
+//        System.out.println("\nO nome e sobrenome trocados é: " + trocarNome.trocar(nome));
     }
 }
