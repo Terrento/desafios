@@ -46,7 +46,7 @@ public class Main {
         Calculadora calculadora = new Calculadora();
 //        System.out.println("O resultado da operação é: " + calculadora.operacaoCalc(numero1, simb, numero2));
 
-        System.out.println("Digite, em sequeência, o valor original e o desconto a ser aplicado");
+        System.out.println("Digite, em sequência, o valor original e o desconto a ser aplicado");
         double valorOriginal = scan.nextDouble();
         double valorDesconto = scan.nextDouble();
 

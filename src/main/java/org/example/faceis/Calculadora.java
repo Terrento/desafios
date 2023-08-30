@@ -2,6 +2,8 @@ package org.example.faceis;
 
 import java.math.RoundingMode;
 import java.text.DecimalFormat;
+import java.text.DecimalFormatSymbols;
+import java.util.Locale;
 
 public class Calculadora {
     public double operacaoCalc(double num1, char simb, double num2) throws Exception {
@@ -34,9 +36,11 @@ public class Calculadora {
     public double operacaoDesconto(double valor, double porcentagem){
         double resultado = valor-(valor*porcentagem/100);
 
-        DecimalFormat df = new DecimalFormat("#.##");
+        DecimalFormat df = new DecimalFormat("#.##", DecimalFormatSymbols.getInstance(Locale.US));
         df.setRoundingMode(RoundingMode.CEILING);
-        df.format(resultado);
+        String temp = df.format(resultado);
+
+        resultado = Double.parseDouble(temp);
 
         return resultado;
     }

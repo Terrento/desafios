@@ -12,11 +12,22 @@ public class Main {
 //
 //        System.out.println(quadratica.checarRaizes(a, b, c));
 //-------------------------------------------------------------------------------
-        System.out.println("Digite, em sequencia, o numero e quantos multiplos dele você queira");
-        int numero = scan.nextInt();
-        int qtd = scan.nextInt();
+//        System.out.println("Digite, em sequencia, o numero e quantos multiplos dele você queira");
+//        int numero = scan.nextInt();
+//        int qtd = scan.nextInt();
+//
+//        MultiplosArray multiplosArray = new MultiplosArray();
+//        System.out.println(multiplosArray.gerarLista(numero, qtd));
+//------------------------------------------------------------------------------
+//        System.out.println("Digite a valor do menor lado.");
+//        double valor1 = scan.nextDouble();
+//
+//        TrianguloLados trianguloLados = new TrianguloLados();
+//        System.out.println("Os outros dois lados são " + trianguloLados.gerarLista(valor1));
+//-----------------------------------------------------------------------------------
+        ParxImpar pi = new ParxImpar();
+        int[] lista = {5, 9, 45, 6, 2, 7, 34, 8, 6, 90, 5, 243};
 
-        MultiplosArray multiplosArray = new MultiplosArray();
-        System.out.println(multiplosArray.gerarLista(numero, qtd));
+        System.out.println("A diferença é " + pi.gerarNumero(lista) + ".");
     }
 }
