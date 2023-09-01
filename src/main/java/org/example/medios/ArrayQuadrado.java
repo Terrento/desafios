@@ -4,11 +4,11 @@ import java.util.Arrays;
 
 public class ArrayQuadrado {
 
-    public String gerarQuadrado(int tamanho){
+    public void gerarQuadrado(int tamanho){
         int[][] lista = new int[tamanho][tamanho];
         for (int[] linha:lista) {
             Arrays.fill(linha, tamanho);
         }
-        return Arrays.deepToString(lista).replace("],", "],\n");
+        System.out.println( Arrays.deepToString(lista).replace("],", "],\n"));
     }
 }

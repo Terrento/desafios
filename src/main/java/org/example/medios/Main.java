@@ -34,11 +34,20 @@ public class Main {
 //        int tamanho = scan.nextInt();
 //        ArrayQuadrado arrayQuadrado = new ArrayQuadrado();
 //
-//        System.out.println(arrayQuadrado.gerarQuadrado(tamanho));
+//        arrayQuadrado.gerarQuadrado(tamanho);
 //-------------------------------------------------------------------------------------
-        int[] lista = {1, 2, 3, 4};
-
-        RecursãoSoma rs = new RecursãoSoma();
-        System.out.println(rs.somaLista(lista));
+//        int[] lista = {1, 2, 3, 4};
+//
+//        RecursãoSoma rs = new RecursãoSoma();
+//        System.out.println(rs.somaLista(lista));
+//------------------------------------------------------------------------------------
+//        char[][] lista = {{'d','e','y','h','a','d'}, {'c','b','z','y','j','k'},
+//                {'d','b','c','a','m','n'}, {'f','g','g','r','s','r'},
+//                {'v','x','h','a','s','s'}};
+//        AcharLetra al = new AcharLetra();
+//        al.letraAchar(lista, 'h');
+//-----------------------------------------------------------------------------------
+        RPS rps = new RPS();
+        rps.checarVitoria("papel", "papel");
     }
 }
