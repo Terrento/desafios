@@ -3,7 +3,7 @@ package org.example.dificeis;
 import java.util.ArrayList;
 
 public class SeteBoom {
-    public void acharNumero(int[] ar, char alvo){
+    public String acharNumero(int[] ar, char alvo){
         boolean validacao = false;
         for (int i = 0; i < ar.length; i++) {
             String sAr = Integer.toString(ar[i]);
@@ -15,9 +15,9 @@ public class SeteBoom {
             }
         }
         if (validacao){
-            System.out.println("Boom!");
+            return "Boom!";
         } else {
-            System.out.println("Não há nenhum sete na lista.");
+            return "Não há nenhum sete na lista.";
         }
     }
 }
