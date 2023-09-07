@@ -28,10 +28,19 @@ public class Main {
 //        Collections.addAll(lista, 2, 3, 6, 1, 5, 4);
 //        ao.verificaLista(lista);
 //--------------------------------------------------------------
-        MaisEspaco me = new MaisEspaco();
-        ArrayList<Integer> lista = new ArrayList<Integer>();
+//        MaisEspaco me = new MaisEspaco();
+//        ArrayList<Integer> lista = new ArrayList<Integer>();
+//
+//        Collections.addAll(lista, 9, 4, 26, 26, 0, 0, 5, 20, 6, 25, 5);
+//        System.out.println(me.verficaEspaco(lista));
+//------------------------------------------------------------------
+        ArrayList<Integer> lista1 = new ArrayList<Integer>();
+        Collections.addAll(lista1, 2, 5, 2, 6, 9);
 
-        Collections.addAll(lista, 9, 4, 26, 26, 0, 0, 5, 20, 6, 25, 5);
-        System.out.println(me.verficaEspaco(lista));
+        ArrayList<Integer> lista2 = new ArrayList<Integer>();
+        Collections.addAll(lista2,3, 7, 3, 1, 2);
+
+        CartasCombi cc = new CartasCombi();
+        cc.maiorNum(lista1, lista2);
     }
 }
