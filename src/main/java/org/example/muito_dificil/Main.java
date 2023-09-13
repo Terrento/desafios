@@ -13,11 +13,20 @@ public class Main {
 //
 //        div.separador("((())())(()(()()))");
 //-----------------------------------------------------------------------
-        Encryption enc = new Encryption();
-        enc.cifrar("Sunshine");
+//        Encryption enc = new Encryption();
+//        enc.cifrar("Sunshine");
+//
+//        ArrayList<Integer> lista = new ArrayList<>();
+//        Collections.addAll(lista, 72, 33, -73, 84, -12, -3, 13, -13, -68);
+//        System.out.println(enc.decifrar(lista));
+//------------------------------------------------------------------------
+//        AtbashCypher cif = new AtbashCypher();
+//
+//        cif.cifra("Christmas is the 25th of December.");
+//    }
+//------------------------------------------------------------------------
+        CompletarPalavra cp = new CompletarPalavra();
 
-        ArrayList<Integer> lista = new ArrayList<>();
-        Collections.addAll(lista, 72, 33, -73, 84, -12, -3, 13, -13, -68);
-        System.out.println(enc.decifrar(lista));
+        System.out.println("O resultado é " + cp.verificarPalavra("u", "beautiful"));
     }
 }
