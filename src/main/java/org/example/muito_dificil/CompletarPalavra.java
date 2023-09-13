@@ -6,8 +6,7 @@ public class CompletarPalavra {
 
         for (char letra : amostra.toCharArray()) {
             int pos = palavra.indexOf(letra, antes);
-            System.out.println(pos);
-            if (pos == -1 || pos < antes){
+            if (pos == -1){
                 return false;
             }
             antes = pos;

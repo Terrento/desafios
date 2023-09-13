@@ -27,6 +27,6 @@ public class Main {
 //------------------------------------------------------------------------
         CompletarPalavra cp = new CompletarPalavra();
 
-        System.out.println("O resultado é " + cp.verificarPalavra("u", "beautiful"));
+        System.out.println("O resultado é " + cp.verificarPalavra("tifulb", "beautiful"));
     }
 }
