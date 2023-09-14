@@ -23,10 +23,17 @@ public class Main {
 //        AtbashCypher cif = new AtbashCypher();
 //
 //        cif.cifra("Christmas is the 25th of December.");
-//    }
 //------------------------------------------------------------------------
-        CompletarPalavra cp = new CompletarPalavra();
+//        CompletarPalavra cp = new CompletarPalavra();
+//
+//        System.out.println("O resultado é " + cp.verificarPalavra("tifulb", "beautiful"));
+//---------------------------------------------------------------------------
+//        Persistence ps = new Persistence();
+//        //System.out.println(ps.persistAditiva(1679583));
+//        System.out.println(ps.persistMulti(4));
+//-----------------------------------------------------------------
+        ProdDigSoma pds = new ProdDigSoma();
 
-        System.out.println("O resultado é " + cp.verificarPalavra("tifulb", "beautiful"));
+        System.out.println(pds.somaDigitos(16, 28));
     }
 }
