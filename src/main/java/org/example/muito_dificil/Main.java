@@ -42,6 +42,6 @@ public class Main {
 //--------------------------------------------------------------
         YTLinkID link = new YTLinkID();
 
-        System.out.println(link.extractor("https://www.youtube.com/watch?v=XPEr1cArWRg"));
+        System.out.println(link.extractor("https://youtu.be/QImBolnTVH8?si=qG-Z6_BXkdLnxBF5&t=52"));
     }
 }
