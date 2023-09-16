@@ -32,8 +32,16 @@ public class Main {
 //        //System.out.println(ps.persistAditiva(1679583));
 //        System.out.println(ps.persistMulti(4));
 //-----------------------------------------------------------------
-        ProdDigSoma pds = new ProdDigSoma();
+//        ProdDigSoma pds = new ProdDigSoma();
+//
+//        System.out.println(pds.somaDigitos(16, 28));
+//------------------------------------------------------------------------
+//        Palindromo pal = new Palindromo();
+//
+//        System.out.println(pal.verificaPal("palindrome"));
+//--------------------------------------------------------------
+        YTLinkID link = new YTLinkID();
 
-        System.out.println(pds.somaDigitos(16, 28));
+        System.out.println(link.extractor("https://www.youtube.com/watch?v=XPEr1cArWRg"));
     }
 }
