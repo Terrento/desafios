@@ -1,8 +1,5 @@
 package org.example.muito_dificil;
 
-import java.util.ArrayList;
-import java.util.Collections;
-
 public class Main {
     public static void main(String[] args) {
 //        Economias economias = new Economias();
@@ -44,7 +41,7 @@ public class Main {
 //
 //        System.out.println(link.extractor("https://youtu.be/QImBolnTVH8?si=qG-Z6_BXkdLnxBF5&t=52"));
 //-----------------------------------------------------------------------------
-        RPSBlock block = new RPSBlock();
+        TictactoeBlock block = new TictactoeBlock();
 
         System.out.println(block.tercNum(3, 5));
     }

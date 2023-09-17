@@ -3,7 +3,7 @@ package org.example.muito_dificil;
 import java.util.HashMap;
 import java.util.Map;
 
-public class RPSBlock {
+public class TictactoeBlock {
     public int tercNum(int numero1, int numero2){
         Map<Integer, Integer> tabela = new HashMap<>(){{
             put(0, 2); put(1, 7); put(2, 6); put(3, 9);
