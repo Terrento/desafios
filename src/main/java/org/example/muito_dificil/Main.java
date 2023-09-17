@@ -40,8 +40,12 @@ public class Main {
 //
 //        System.out.println(pal.verificaPal("palindrome"));
 //--------------------------------------------------------------
-        YTLinkID link = new YTLinkID();
+//        YTLinkID link = new YTLinkID();
+//
+//        System.out.println(link.extractor("https://youtu.be/QImBolnTVH8?si=qG-Z6_BXkdLnxBF5&t=52"));
+//-----------------------------------------------------------------------------
+        RPSBlock block = new RPSBlock();
 
-        System.out.println(link.extractor("https://youtu.be/QImBolnTVH8?si=qG-Z6_BXkdLnxBF5&t=52"));
+        System.out.println(block.tercNum(3, 5));
     }
 }
