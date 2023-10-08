@@ -2,8 +2,8 @@ package org.example.expert;
 
 public class Main {
     public static void main(String[] args) {
-        FiscalCode fc = new FiscalCode();
+        ConsecutiveNum cn = new ConsecutiveNum();
 
-        fc.gerarCodigo("Helen", "Yu", 'F', "1/12/1950");
+        System.out.println(cn.verifyAsc("666667"));
     }
 }
