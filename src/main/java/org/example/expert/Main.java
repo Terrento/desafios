@@ -2,8 +2,8 @@ package org.example.expert;
 
 public class Main {
     public static void main(String[] args) {
-        JosephusPerm jp = new JosephusPerm();
+        CentrifugeBalance cb = new CentrifugeBalance();
 
-        System.out.println(jp.whoIsFree(9, 2));
+        System.out.println(cb.isBalanced(21, 14));
     }
 }
