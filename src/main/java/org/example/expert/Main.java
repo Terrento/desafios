@@ -2,8 +2,8 @@ package org.example.expert;
 
 public class Main {
     public static void main(String[] args) {
-        CentrifugeBalance cb = new CentrifugeBalance();
+        SherlockValidString sv = new SherlockValidString();
 
-        System.out.println(cb.isBalanced(21, 14));
+        System.out.println(sv.checkString("aaabccdd"));
     }
 }
