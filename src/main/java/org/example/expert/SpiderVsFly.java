@@ -1,10 +1,10 @@
 //This program takes the position of a Spider and Fly and calculates the shortest path
-//the formar must take to reach its destination.
+//the former must take to reach its destination.
 //Original problem here: https://edabit.com/challenge/8Pgn2HjatQgF9Rdu8
 
 package org.example.expert;
 
-public class SpidervsFly {
+public class SpiderVsFly {
 
     private int firstNumber;
     private int secondNumber;
