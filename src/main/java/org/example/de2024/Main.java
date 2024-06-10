@@ -2,8 +2,9 @@ package org.example.de2024;
 
 public class Main {
     public static void main(String[] args) {
-        TrailingZeros tz = new TrailingZeros();
+        GreedDie gd = new GreedDie();
+        int[] results = new int[]{5, 5, 5, 5, 5};
 
-        System.out.println("Number of zeros is "+ tz.findZeros(99));
+        System.out.println("The result is " + gd.calculateDice(results));
     }
 }
